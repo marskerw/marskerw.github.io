@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+
+/* Classes */
+
+.box {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.gray {
+    background-color: red; 
+}
+
+.left-space {
+    padding-left: 20px;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    flex: 1;
+}
+
+
+.pagelink li {
+    display: inline;
+    list-style-type: none;
+}
+
+.pagelink li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    margin: 5px;
+    background-color:red;
+    border-radius: 5px;
+}
