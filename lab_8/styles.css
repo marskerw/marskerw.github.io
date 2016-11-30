@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Lato:300i,700,700i');
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 80px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+
+.flex-gutter {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#ImgContainer {
+    padding: 0 80px;
+}
+
+#ImgContainer>img {
+    width: 100%;
+    height: auto;
+}
+
+#TwoP>div {
+    padding: 0 30px;
+}
