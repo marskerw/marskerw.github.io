@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:700');
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+  font-family: 'Aref Ruqaa', serif;
+    color: maroon
+}
+
+h2 {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+/* Classes */
+
+.row {
+  display: flex;
+}
+
+.row {
+    padding-left: 20px;
+    text-align: left;
+}
+ 
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.row img {
+    height: auto;
+    width: auto;
+}
+
+
+footer {
+    text-align: center;
+}
+
+nav {
+    background-color: tan;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav ul>li {    
+    display: block;
+    float: left;
+}
+
+nav ul>li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: maroon;
+    display: block;
+    margin: 10px;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+nav ul>li a:hover {
+    background-color:darkred;
+}
+
+
+@media (min-width: 425px){
+    nav ul {
+        overflow: hidden;
+    }
+ 
+    h1 {
+        font-size: 2em;
+    } 
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: 4em;
+    }
+
+     .row {
+    display: flex;
+    flex-direction: row;
+    }
+    nav ul>li a:hover {
+    background-color:brown;
+    }
+}
